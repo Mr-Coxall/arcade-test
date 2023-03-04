@@ -1,6 +1,9 @@
 {
     "name": "Mr Coxall - Codespace Image",
     "postCreateCommand": "bash ./.devcontainer/startup.sh",
+    "features": {
+        "ghcr.io/devcontainers/features/desktop-lite:1": {}
+    },
     "customizations": {
         "vscode": {
             "settings": {
